@@ -205,10 +205,11 @@ body{
 .btn-link{
     color: #11332b;
     background: #9ce1be;
-    padding: 8px 30px;
+    padding: 8px 0px;
     font-weight: 200;
     border-radius: 25px;
     margin:  20px;
+    width: 150px;
 }
 
 .btn-link:hover{
@@ -1315,7 +1316,7 @@ body{
     }
 
     .btn-link{
-        width: 100%;
+        
         margin-bottom: 20px;
     }
 
