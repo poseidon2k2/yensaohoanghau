@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../css/animate.css">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../css/slick.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="../font/icofont/icofont.min.css">
+    <script type="text/javascript" src="../js/script.js"></script>
+    <title>Sản phẩm chi tiết</title>
+</head>
+	
+<body class="body-page">
+    <section class="content">
+    	<header class="header-page">
+    		<section class="container">
+    			<div class="row">
+    				<div class="col-xl-3 col-md-3 col-6 col">
+    					<img src="../img/logo.png">
+    				</div>
+    				<div class="col-xl-9 col-md-9 col-6 col">
+    					<ul class="menu-pc menu-pc-page">
+    						<li><a href="../index.html">TRANG CHỦ</a></li>
+    						<li><a href="#">GIỚI THIỆU</a></li>
+    						<li><a href="../page/sanpham.html">SẢN PHẨM</a></li>
+    						<li><a href="../page/tintuc.html">TIN TỨC</a></li>
+    						<li><a href="#">VIDEO</a></li>
+    						<li><a href="#">KHUYẾN MÃI</a></li>
+    						<li><a href="../page/lienhe.html">LIÊN HỆ</a></li>
+    						<li><i class="icofont-search-1 icon"></i></li>
+    					</ul>
+    					<div class="btn-moblie">
+    						<button onclick="nav1Function()">
+    							<i class="icofont-navigation-menu"></i>
+    						</button>
+    					</div>
+    				</div>
+    			</div>
+    			<ul class="menu-mb" id="menu-mb">
+    				<div class="header-nav-mb">
+    					<img src="../img/logo.png" class="logo-mobile">
+    					<span><i class="icofont-close-line-circled" onclick="nav1Function()"></i></span>
+    				</div>
+    						<li><a href="../index.html">Trang chủ</a></li>
+    						<li><a href="#">Giới thiệu</a></li>
+    						<li><a href="../page/sanpham.html">Sản phẩm</a></li>
+    						<li><a href="../page/tintuc.html">Tin tức</a></li>
+    						<li><a href="#">Video</a></li>
+    						<li><a href="#">Khuyến mãi</a></li>
+    						<li><a href="../page/lienhe.html">Liên hệ</a></li>
+    						
+    					</ul>
+    		</section>
+            <section>
+                <div class="container">
+                    <div class="title-page">
+                        <p class="name-page">Sản phẩm</p>
+                        <p class="breadrum"><span>TRANG CHỦ </span> &ensp;/&ensp; SẢN PHẨM</p>
+                    </div>
+                </div>
+            </section>
+    	</header>
+    	<main>
+            
+    		<section class="buying-section">
+                <div class="container">
+                    <div class="row"> 
+                        <div class="col-xl-5 col-md-5 col-12 col img-product-show">
+                            <div class="img-product">
+                                <img src="../img/img-product.png" class="img-product-items" id="my-img">
+                            </div>
+                            <div class="gallery-img">
+                                <div class="gallery-img-items gallery-img-items__side">
+                                    <img src="../img/img-gallery-1.png" onclick="playimg('../img/img-gallery-1.png')">
+                                </div>
+                                <div class="gallery-img-items gallery-img-items__primary">
+                                    <img src="../img/img-gallery-2.png" onclick="playimg('../img/img-gallery-2.png')">
+                                </div>
+                                <div class="gallery-img-items gallery-img-items__side">
+                                    <img src="../img/img-gallery-3.png" onclick="playimg('../img/img-gallery-3.png')">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-xl-6 col-md-6 col-12 col">
+                            <div class="title-product">
+                                <p>Yến làm sạch chất lượng 50gr</p>
+                            </div>
+                            <div class="rate-star-page ">
+                                <span><i class="icofont-star"></i></span>
+                                <span><i class="icofont-star"></i></span>
+                                <span><i class="icofont-star"></i></span>
+                                <span><i class="icofont-star"></i></span>
+                                <span><i class="icofont-star"></i></span>
+                            </div>
+                            <div class="price-product">
+                                <p class="sales-price">4.500.000 <span class="price">5.500.000</span></p>
+                            </div>
+                            <p class="title-element">Trong lượng</p>
+                            <div class="option-element">
+                                <div class="row">
+                                    <div class="col-xl-6 col-md-12 col-12 col option-element-items">
+                                        <p class="weight weight-active">50gr</p>
+                                        <p class="price-options price-options-active">4.500.000</p>
+                                    </div>
+                                    <div class="col-xl-6 col-md-12 col-12 col option-element-items">
+                                        <p class="weight">100gr</p>
+                                        <p class="price-options">6.500.000</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xl-6 col-md-12 col-12 col option-element-items">
+                                        <p class="weight">200gr</p>
+                                        <p class="price-options">7.500.000</p>
+                                    </div>
+                                    <div class="col-xl-6 col-md-12 col-12 col option-element-items">
+                                        <p class="weight">200gr</p>
+                                        <p class="price-options">7.500.000</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="infor-product">
+                                <ul>
+                                    <li>Tổ yến thô đã được xử lý sạch, sợi phồng, trắng, có độ bóng ánh kim.</li>
+                                    <li>Tỉ lệ sợi gãy/đứt và sợi nguyên: 50%-50% bề mặt, phần bụng sợi vụn.</li>
+                                    <li>Quy cách 6 miếng/hộp (1 miếng chưng #3 chén, khẩu phần cho #18 chén)</li>
+                                    <li>Dùng ngày 1 chén – cách ngày – khẩu phần ăn cho hơn 1 tháng.</li>
+                                    <li>Tiện lợi để sử dụng ngay, tiết kiệm thời gian và lượng hao hụt trong quá trình xử lý.</li>
+                                </ul>
+                            </div>
+                            <div class="action-buying">
+                                <div class="quantity">
+                                    <input type="button" value="-" class="minus">                
+                                    <input type="number" class="input-text" step="1" min="1" max="" name="quantity" value="1" title="Qty" size="4">
+                                    <input type="button" value="+" class="plus"> 
+                                </div>
+                                <button class="btn-buy-now" onclick="orderFunction()">Mua ngay</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>      
+            </section>
+            <section class="content-des-product">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-8 col-md-7 col-12 col">
+                            <p class="section-title section-title-center">
+                                <b></b>
+                                <span class="section-title-main">Chi tiết</span>
+                                <b></b>
+                            </p>
+                            <p class="content-section-post">
+                                Tổ yến làm sạch hay còn gọi là yến sào tinh chế là tổ yến đã được xử lý sạch, sợi phồng, trắng, có độ bóng ánh kim, hình cánh sen đẹp mắt. Tỉ lệ sợi gãy/đứt và sợi nguyên: 50%-50% bề mặt, phần bụng sợi vụn. Tiện lợi để sử dụng ngay, tiết kiệm thời gian và lượng hao hụt trong quá trình xử lý.
+                            </p>
+                            <img src="../img/img-product-post.png" class="img-content-section">
+                            <p class="content-section-post">
+                                Tổ yến làm sạch hay còn gọi là yến sào tinh chế là tổ yến đã được xử lý sạch, sợi phồng, trắng, có độ bóng ánh kim, hình cánh sen đẹp mắt. Tỉ lệ sợi gãy/đứt và sợi nguyên: 50%-50% bề mặt, phần bụng sợi vụn. Tiện lợi để sử dụng ngay, tiết kiệm thời gian và lượng hao hụt trong quá trình xử lý.
+                            </p>
+                        </div>
+                        <div class="col-xl-4 col-md-5 col-12 col">
+                            <p class="section-title section-title-center">
+                                <b></b>
+                                <span class="section-title-main title-sidebar">Yến bán chạy</span>
+                                <b></b>
+                            </p>
+                            <div class="sidebar-items">
+                                <div class="row sidebar-items__wrap">
+                                    <div class="col-xl-4 col-md-4 col-4 col">
+                                        <img src="../img/sidebar-img1.png" class="sidebar-img">
+                                    </div>
+                                    <div class="col-xl-8 col-md-8 col-8 col">
+                                        <p class="title-product-sidebar">Yến làm sạch chất lượng 200gr</p>
+                                        <div class="price-product">
+                                            <p class="sales-price">4.500.000 <span class="price">5.500.000</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row sidebar-items__wrap">
+                                    <div class="col-xl-4 col-md-4 col-4 col">
+                                        <img src="../img/sidebar-img2.png" class="sidebar-img">
+                                    </div>
+                                    <div class="col-xl-8 col-md-8 col-8 col">
+                                        <p class="title-product-sidebar">Yến làm sạch chất lượng 200gr</p>
+                                        <div class="price-product">
+                                            <p class="sales-price">4.500.000 <span class="price">5.500.000</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row sidebar-items__wrap">
+                                    <div class="col-xl-4 col-md-4 col-4 col">
+                                        <img src="../img/sidebar-img3.png" class="sidebar-img">
+                                    </div>
+                                    <div class="col-xl-8 col-md-8 col-8 col">
+                                        <p class="title-product-sidebar">Yến làm sạch chất lượng 200gr</p>
+                                        <div class="price-product">
+                                            <p class="sales-price">4.500.000 <span class="price">5.500.000</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row sidebar-items__wrap">
+                                    <div class="col-xl-4 col-md-4 col-4 col">
+                                        <img src="../img/sidebar-img4.png" class="sidebar-img">
+                                    </div>
+                                    <div class="col-xl-8 col-md-8 col-8 col">
+                                        <p class="title-product-sidebar">Yến làm sạch chất lượng 200gr</p>
+                                        <div class="price-product">
+                                            <p class="sales-price">4.500.000 <span class="price">5.500.000</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="form-order">
+                <div class="overload"></div>
+                <div class="order">
+                    <i class="icofont-close" onclick="orderFunction()"></i>
+                    <form class="order-form">
+                        <p>Đơn hàng của quý khách</p>
+                        <div class="row">
+                            <div class="col-xl-6 col-md-6 col-12 col">
+                                <input type="text" name="hoten" placeholder="Họ tên *" class="order-form__input">
+                            </div>
+                            <div class="col-xl-6 col-md-6 col-12 col">
+                                <input type="text" name="phone" placeholder="Điện thoại *" class="order-form__input">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-6 col-md-6 col-12 col">
+                                <input type="text" name="hoten" placeholder="Yến làm sạch chất lượng 50gr" class="order-form__input">
+                            </div>
+                            <div class="col-xl-6 col-md-6 col-12 col">
+                                <input type="text" name="phone" placeholder="Số lượng" class="order-form__input">
+                            </div>
+                        </div>
+                        <div class="option-element-items">
+                            <p class="weight weight-active form-items-weight">50gr</p>
+                            <p class="price-options price-options-active form-items-price">4.500.000</p>
+                        </div>
+                        <textarea class="order-form__input textarea-form" rows="3" placeholder="Ghi chú"></textarea>
+                        <div class="col-xl-12 col-md-12 col-12 col">
+                            <button class="btn-action-order">Tôi muốn mua Yến</button>
+                        </div>
+                    </form>
+                </div>    
+            </section>
+    	</main>
+    	<footer>
+    		<section class="footer">
+    			<div class="container">
+    				<div class="row">
+    					<div class="col-xl-3 col-md-3 col-12 col">
+    						<div class="title-footer">
+    							<p>Sản phẩm</p>
+    							<span class="line line-footer"></span>
+    						</div>
+    						<ul class="list-footer">
+    							<li><a href="#">Yến thô</a></li>
+    							<li><a href="#">Yến làm sạch</a></li>
+    							<li><a href="#">Yến ăn thử</a></li>
+    						</ul>
+    					</div>
+    					<div class="col-xl-4 col-md-4 col-12 col">
+    						<div class="title-footer">
+    							<p>Thông tin</p>
+    							<span class="line line-footer"></span>
+    						</div>
+    						<ul class="list-footer">
+    							<li><a href="#">Trang chủ</a></li>
+    							<li><a href="#">Giới thiệu</a></li>
+    							<li><a href="#">Tin tức - Khuyến mãi</a></li>
+    						</ul>
+    					</div>
+    					<div class="col-xl-5 col-md-5 col-12 col">
+    						<div class="text-footer-col3">
+    							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ...</p>
+    							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ...</p>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+    		</section>
+    		<section class="sub-footer">
+    			<div class="container">
+    				<div class="sub-footer--text">
+	    				<div class="sub-footer--text__left">
+	    					2022 <i class="icofont-copyright"></i> All Rights Reserved Yến Sào Hoàng Hậu Designed by PutaDesign 
+	    				</div>
+	    				<div class="sub-footer--text__right"> 
+	    					<span><i class="icofont-facebook"></i></span>
+	    					<span><i class="icofont-instagram"></i></span>
+	    					<span><i class="icofont-twitter"></i></span>
+	    				</div>
+	    			</div>
+    			</div>
+    		</section>
+    	</footer>
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="../img/icon-bird.png" ></button>
+    </section>
+    <script type="text/javascript" src="../js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../js/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+    <script type="text/javascript" src="../js/slick.min.js"></script>
+    <script type="text/javascript" src="../js/wow.min.js"></script>
+    <script type="text/javascript">
+      function nav1Function() {
+		  var nav1 = document.getElementById("menu-mb");
+		  nav1.classList.toggle("active");
+		}
+
+        function orderFunction() {
+          var formorder = document.getElementById("form-order");
+          formorder.classList.toggle("on");
+        }
+        
+
+        var myimg = document.getElementById("my-img");
+
+        function playimg(path){
+            myimg.src = path; 
+            videoplayer.style.display = "block";
+        }
+    </script>
+</body>
+</html>
