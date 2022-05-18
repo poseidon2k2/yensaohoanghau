@@ -198,6 +198,10 @@ body{
     flex-wrap: wrap;
 }
 
+.nav-shop__items{
+    margin-bottom: 10px;
+}
+
 .btn-link{
     color: #11332b;
     background: #9ce1be;
